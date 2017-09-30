@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  prepostsex-entry:
+    title: prepostsex-entry
+    output: true
 email: prepostsex@alune.fr
 description: Something about a sex life.
 baseurl: ''
