@@ -9,4 +9,4 @@ sex-track:
   url: https://www.youtube.com/watch?v=E90eZc1ndCw
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Started as an unintentional project, a compulsively habit of taking a picture after a moment of shared intimacy, these pictures are the result of a need to freeze an instant, a will to immortalize an out of time moment. This goal is never reach and the photos always fail to be what they were initially meant to be. 
