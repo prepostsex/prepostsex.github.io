@@ -164,6 +164,7 @@ table {
   }
 
   @include media-query(670px){
+    display: block;
     z-index: 15;
     color: $light-color;
     position: absolute;
