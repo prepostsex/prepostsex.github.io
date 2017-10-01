@@ -4,4 +4,4 @@ position: 4
 image: "/uploads/002.jpg"
 ---
 
-That time when two…
+That time when we shared a secret
