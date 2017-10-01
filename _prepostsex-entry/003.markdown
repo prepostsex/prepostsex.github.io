@@ -1,7 +1,7 @@
 ---
 title: '003'
 position: 3
-image: 003.jpg
+image: "/uploads/003.jpg"
 ---
 
 That time when three…
