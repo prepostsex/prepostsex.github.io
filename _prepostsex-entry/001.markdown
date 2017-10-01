@@ -1,7 +1,7 @@
 ---
 title: '001'
 position: 5
-image: 001.jpg
+image: "/uploads/001.jpg"
 ---
 
 That time when one little man came to me to say he was sorry about all the dumb stuff man can say to women without caring about being rude.
