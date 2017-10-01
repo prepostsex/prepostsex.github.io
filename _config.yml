@@ -19,12 +19,12 @@ defaults:
     path: ''
     type: prepostsex-entry
   values:
-    title:
-    image:
+    title: 
+    image: 
 email: prepostsex@alune.fr
 description: Something about a sex life.
-baseurl:
-url:
+baseurl: 
+url: 
 github_username: prepostsex
 markdown: kramdown
 plugins:
