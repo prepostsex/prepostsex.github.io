@@ -2,7 +2,7 @@
 title: '005'
 date: 2017-10-01 16:26:00 Z
 position: 1
-image: "/uploads/IMG_9112.JPG"
+image: IMG_9112.JPG
 ---
 
 That time when...
