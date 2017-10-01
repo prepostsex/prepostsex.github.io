@@ -1,7 +1,7 @@
 ---
 title: '001'
-date: 2017-09-30 17:23:00 Z
-image: 
+position: 1
+image: 001.jpg
 ---
 
-That time when…
+That time when one little man came to me to say he was sorry about all the dumb stuff man can say to women without caring about being rude.

@@ -1,5 +1,5 @@
 ---
-title: Pre Post Sex
+title: PrePostSex
 timezone: UTC
 collections:
   posts:
@@ -11,6 +11,13 @@ collections:
   prepostsex-entry:
     title: prepostsex-entry
     output: true
+defaults:
+- scope:
+    path: ''
+    type: prepostsex-entry
+  values:
+    title:
+    image: 
 email: prepostsex@alune.fr
 description: Something about a sex life.
 baseurl: ''

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: 30px;
+  font-family: $serif-font;
+  color: $dark-color;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  font-family: $sans-font;
+  color: $dark-color;
+}

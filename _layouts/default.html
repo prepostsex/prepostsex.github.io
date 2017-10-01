@@ -5,15 +5,13 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="header">
+      <h1>{{ site.title }}</h1>
+      <span>?</span>
+    </div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
+    {{ content }}
+    {% include js.html %}
 
   </body>
 

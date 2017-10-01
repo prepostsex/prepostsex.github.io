@@ -2,25 +2,24 @@
 layout: default
 ---
 
-<div class="home">
+<!-- <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+</div> -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    {% assign entrySorted = site.prepostsex-entry | sort: 'position' | reverse %}
+    {% for entry in entrySorted %}
+      <td>
+        <div class="entry-container">
+          <div class="entry-description">
+            {{ entry.content }}
+          </div>
+          <div class="entry-image">
+            <img src="{{ site.baseurl }}/uploads/{{ entry.image }}">
+          </div>
+        </div>
+      </td>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-</div>
+  </tr>
+</table>
