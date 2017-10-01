@@ -1,6 +1,6 @@
 ---
 title: '002'
-position: 2
+position: 4
 image: 002.jpg
 ---
 
