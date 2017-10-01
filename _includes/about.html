@@ -1,0 +1,13 @@
+
+{% for about-page in site.about %}
+<div class="about-container">
+  <div class="about-text">
+    <p>{{ about-page.content }}</p>
+  </div>
+  <div class="playlist">
+    {% for track in about-page.sex-track %}
+    <a href="{{track.url}}">{{track.title}} - {{track.artist}}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

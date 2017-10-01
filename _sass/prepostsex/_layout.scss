@@ -1,5 +1,6 @@
 .header {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100vw;
@@ -10,14 +11,15 @@
   font-family: $serif-font;
   color: $dark-color;
 
-  h1 {
+  .logo {
     display: inline-block;
     margin: 0;
   }
 
-  span {
+  .about-trigger {
     display: inline-block;
     float: right;
+    cursor: pointer;
   }
 }
 
@@ -32,6 +34,7 @@ table {
     border-spacing: 0;
     border-color: white;
     border: none;
+    vertical-align: top;
   }
 
   td {
@@ -43,16 +46,67 @@ table {
 }
 
 .home {
-  width: auto;
-  height: 100vh;
-  overflow-y: hidden;
-  overflow-x: scroll;
+  position: relative;
+  z-index: 50;
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 0.4s 0.4s, z-index 0s 0.4s;
 
-  tr {
-    vertical-align: top;
+  &.hidden {
+    opacity: 0;
+    z-index: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0s, z-index 0s 0s;
   }
 }
 
+.about-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  overflow-y: scroll;
+  padding: $spacing-unit*6 $spacing-unit*2 $spacing-unit*2;
+  opacity: 0;
+  transition: opacity 0.4s 0s, z-index 0s 0s;
+  pointer-events: none;
+  @include flexbox;
+  justify-content: flex-start;
+
+  &.visible {
+    z-index: 50;
+    opacity: 1;
+    transition: opacity 0.4s 0.4s, z-index 0s 0.4s;
+    pointer-events: all;
+  }
+}
+
+.about-text {
+  width: 50%;
+  height: auto;
+  padding: 0 150px 0 0;
+}
+
+.playlist {
+  width: 50%;
+  height: auto;
+
+  a, a:visited {
+    display: block;
+    margin: 0;
+    font-size: 18px;
+    font-family: $sans-font;
+    color: $dark-color;
+    text-decoration: underline;
+    opacity: 1;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
 
 .entry-container {
   width: 100vw;

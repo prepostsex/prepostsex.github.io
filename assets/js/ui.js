@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+  $('.about-trigger').click(function(){
+    $('.about-container').toggleClass('visible');
+    $('.home').toggleClass('hidden');
+    $('body').toggleClass('stuck');
+  });
+
   var projectScrollPosition = window.pageXOffset + 400;
   var winWidth = $(window).width();
 
@@ -12,8 +18,6 @@ $(document).ready(function(){
     } else {
       $(this).children(".entry-description").removeClass('in-view');
     }
-
-    console.log(entryWidth, entryPos, )
   });
 
   $(document).mousemove(function(e){
@@ -47,8 +51,6 @@ $(document).ready(function(){
       } else {
         $(this).children(".entry-description").removeClass('in-view');
       }
-
-      console.log(entryWidth, entryPos, )
     });
   });
 });

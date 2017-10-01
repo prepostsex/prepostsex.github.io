@@ -2,8 +2,8 @@
 title: PrePostSex
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  about:
+    title: about
     output: true
   uploads:
     title: Uploads
@@ -16,12 +16,12 @@ defaults:
     path: ''
     type: prepostsex-entry
   values:
-    title: 
-    image: 
+    title:
+    image:
 email: prepostsex@alune.fr
 description: Something about a sex life.
-baseurl: 
-url: 
+baseurl:
+url:
 github_username: prepostsex
 markdown: kramdown
 plugins:
