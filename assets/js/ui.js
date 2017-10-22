@@ -3,7 +3,10 @@ $(document).ready(function(){
   $('.about-trigger').click(function(){
     $('.about-container').toggleClass('visible');
     $('.home').toggleClass('hidden');
-    $('body').toggleClass('stuck');
+
+    setTimeout(function(){
+       $('body').toggleClass('stuck');
+    }, 400);
   });
 
   var projectScrollPosition = window.pageXOffset + 400;
