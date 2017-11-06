@@ -13,12 +13,15 @@ sex-track:
 - title: Le Soleil Brille
   artist: Destin
   url: https://soundcloud.com/destinofficiel/le-soleil-brille
-- title: Michel Colombier
-  artist: Du fond de mon lit
+- title: Du fond de mon lit
+  artist: Michel Colombier
   url: https://www.youtube.com/watch?v=ILPtrNZBCZU
-- title: Les Yeux Orange
-  artist: Coco
+- title: Coco
+  artist: Les Yeux Orange
   url: https://www.youtube.com/watch?v=UDjDv-GFIjg
+- title: Kitty's Cool Beams
+  artist: Pinkshinyultrablast
+  url: https://soundcloud.com/pinkshinyultrablast/kittys-cool-beams
 ---
 
 Started as an unintentional project, a compulsively habit of taking a picture after a moment of shared intimacy, these pictures results from a need to freeze an instant, a will to immortalize an out of time moment. This goal is never reach and the photos always fail to be what they were initially meant to be. 
