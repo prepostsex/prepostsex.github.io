@@ -39,4 +39,4 @@ sex-track:
   url: https://www.youtube.com/watch?v=nO6y1-erVEw
 ---
 
-Started as an unintentional project, a compulsively habit of taking a picture after a moment of shared intimacy, these pictures results from a need to immortalize a moment out of time. This goal is never reach and the photos always fail to be what they were initially meant to be. 
+Started as an unintentional project; a compulsive habit of taking pictures after a moment of shared intimacy, these pictures result from a need to immortalise a moment out of time. This goal is never reached and the photos always fail to fulfill their initial purpose.
