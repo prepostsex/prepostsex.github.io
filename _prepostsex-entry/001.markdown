@@ -4,4 +4,4 @@ position: 7
 image: "/uploads/001.jpg"
 ---
 
-That time when one little man came to me to say he was sorry about all the dumb stuff man can say to women without caring about being rude.
+That time when one little man came to tell me he was sorry for all the dumb stuff men say to women without caring about his rudeness
