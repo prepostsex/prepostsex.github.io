@@ -31,6 +31,9 @@ sex-track:
 - title: Cabrioli
   artist: Moussa
   url: https://www.youtube.com/watch?v=l98fXGtGkqg
+- title: The Story Of A Magnificient Blowjob
+  artist: Basile di Manski
+  url: https://www.youtube.com/watch?v=fdWf3c3rCk4
 ---
 
 Started as an unintentional project, a compulsively habit of taking a picture after a moment of shared intimacy, these pictures results from a need to immortalize a moment out of time. This goal is never reach and the photos always fail to be what they were initially meant to be. 
